@@ -47,11 +47,23 @@
   width: 60%;
   background-color: rgb(126, 64, 224);
 }
+  
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .column1{
     float: left;
     width: 50%;
     text-align: center;
    
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .column2{
 
