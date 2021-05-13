@@ -1,0 +1,91 @@
+.body{
+    padding:0;
+    margin:0;
+ 
+}
+.logo{
+    float:left;
+    padding-left: 50px;
+}
+.header h1{
+    float:right;
+    position: relative;
+    color:red;
+    right:80px;
+    padding-bottom: 30px;
+    font-size: 60px;
+
+
+
+}
+.header{
+    background-color: yellow;
+
+ 
+}
+.nav{
+    float: right;
+    overflow: hidden;
+    background-color: rgb(207, 207, 207);
+  
+}
+.nav a{
+    position: inherit;
+    display: inline-block;
+    padding: 15px 39px;
+    color: rgb(0, 0, 0);
+    
+}
+.nav a:hover {
+    color: rgb(126, 5, 5);
+    background-color: white;
+}
+.column {
+  border: 2px solid red;
+  padding: 10px;
+  border-top-left-radius: 25px;
+  width: 60%;
+  background-color: rgb(126, 64, 224);
+}
+.column1{
+    float: left;
+    width: 50%;
+    text-align: center;
+   
+}
+.column2{
+
+    float:left;
+    width:20%;
+    padding:32px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    background-color: rgb(39, 33, 33);
+    height: 250px;
+    padding: 10px;
+  
+}
+.footer h1{
+    color:ghostwhite;
+}
+ol.a {
+    list-style-type: circle;
+    
+  }
+.a{
+    color:cornsilk;
+}
+.column4 {
+    float: right;
+    position: relative;
+    bottom: 200px;
+    padding: 50px;
+    width: 30%;
+    color:wheat;
+    right:30px
+  }
